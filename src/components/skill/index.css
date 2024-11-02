@@ -1,0 +1,80 @@
+
+.skillHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+}
+.icons{
+    background-color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skillName{
+  display: flex;
+  justify-content: center;
+   font-weight: 500;
+   padding: 5px;
+}
+.experienceContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.experience {
+    height: 250px;
+    width: 300px;
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.duration {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.internTime {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 6px;
+}
+.role {
+    font-size: 30px;
+    font-weight: 700;
+}
+.company {
+    font-size: 20px;
+    font-weight: 400;
+}
+.expSkill1 {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.expSkill2 {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.skillNa {
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 5px;
+}

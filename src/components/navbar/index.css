@@ -1,0 +1,41 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.listItem {
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+
+}
+.darkListItem{
+    text-decoration: none;
+        color: white;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 12px;
+}
+.linkItem{
+    text-decoration: none;
+    color: black;
+}
+.themeButton{
+    padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+}
+.themeButton:hover {
+    background-color: gray;
+    /* Hover color */
+}

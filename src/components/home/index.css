@@ -1,0 +1,51 @@
+.name {
+    font-size: 80px;
+    font-weight: bold;
+}
+.homeContainer {
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+}
+.imgbox {
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+
+}
+.image {
+    width: 100%;
+        height: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.headLine{
+    display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        padding-top: 80px;
+        width: 100%;
+}
+.profileName {
+    font-size: 40px;
+        font-weight: 900;
+        color: blueviolet;
+}
+.paragraph{
+    font-size: 28px;
+    font-weight: 500;
+}
+.secondPara {
+    font-size: 20px;
+        font-weight: 500;
+}
+.hireButton{
+    width: 250px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    outline: none;
+}

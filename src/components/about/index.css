@@ -1,0 +1,85 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+       
+}
+.aboutGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+       
+}
+.aboutHeading{
+    display: flex;
+    justify-content: center;
+}
+.textBox{
+    padding-top: 80px;
+}
+.resumeButton{
+    width: 250px;
+        height: 45px;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        outline: none;
+        margin-top: 30px;
+        cursor: pointer;
+}
+.aboutProfile{
+    color: blueviolet;
+}
+.aboutImage{
+    width: 60%;
+        height: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.imageBox{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+}
+.aboutPara{
+    font-size: 18px;
+    font-weight: 500;
+}
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+.detailList{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.detailItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: lightslategray;
+    
+}
+.infoName{
+    font-size: 30px;
+    font-weight: 600;   
+}
+.infoDetails{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
